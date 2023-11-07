@@ -30,6 +30,7 @@ input.onButtonPressed(Button.A, function () {
     loopCounter = loopCounter + 1
     basic.pause(500)
   }
+
   sprite.delete()
   basic.showIcon(IconNames.Happy)
 })
@@ -46,7 +47,8 @@ input.onButtonPressed(Button.B, function () {
     sprite.set(LedSpriteProperty.Y, loopCounter)
     loopCounter = loopCounter - 1
     basic.pause(500)
-    }
+  }
+
   sprite.delete()
   basic.showIcon(IconNames.Happy)
 })
