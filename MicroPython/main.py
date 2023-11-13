@@ -1,5 +1,10 @@
-from microbit import *
+"""
+Created by: Kyle Lyver
+Created on: Oct 2023
+This module is a Micro:bit MicroPython program that shows a led on a microbit
+"""
 
+from microbit import *
 
 # variables
 loop_counter = 0
